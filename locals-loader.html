@@ -194,20 +194,22 @@ Example:
 
     </style>
     <template is="dom-if" if="{{!small}}">
-          <h1><content></content></h1>
+          <h1><content></content>
           <div id="bigpoints">
           <div class="bigpoint" id="point1"></div>
           <div class="bigpoint" id="point2"></div>
           <div class="bigpoint" id="point3"></div>
           </div>
+          </h1>
     </template>
     <template is="dom-if" if="{{small}}">
-          <p><content></content></p>
+          <p><content></content>
           <div id="smallpoints">
           <div class="smallpoint" id="point1"></div>
           <div class="smallpoint" id="point2"></div>
           <div class="smallpoint" id="point3"></div>
           </div>
+          </p>
     </template>
 
   </template>
